@@ -9,7 +9,7 @@ export default class HadithScreen extends React.Component {
   static navigationOptions = {
     title: 'Hadith of the Day',
   };
-
+// test funtion
   function1 () {
     firebase.database().ref('user/006').set(
       {
